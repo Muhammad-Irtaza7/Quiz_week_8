@@ -9,7 +9,7 @@ def fetch_data():
         co2 = []
         temp = []
 
-        cursor.execute("SELECT year, co2, temperature FROM climate")
+        cursor.execute("SELECT year, co2, temperature FROM ClimateData")
 
         rows = cursor.fetchall()
 
